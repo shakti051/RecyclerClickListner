@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#f6f6f6"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="5dp"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent" android:orientation="horizontal"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtName"
+           android:textSize="18sp"
+           android:text="Sandeep"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:paddingTop="8dp"
+           android:paddingBottom="8dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtjobProfile"
+           android:textSize="18sp"
+           android:text="Manager"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:paddingTop="8dp"
+           android:paddingBottom="8dp"
+           />
+
+   </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent" android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCompanyName"
+                android:textSize="18sp"
+                android:text="Arstdioz"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAddress"
+                android:textSize="18sp"
+                android:text="Noida"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
